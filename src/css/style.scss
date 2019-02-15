@@ -120,9 +120,19 @@
                                 display: inline-block;
                                 background: red;
                                 color: #fff;
-                                border-radius: pxTorem(2px);
+                                border-radius: pxTorem(4px);
                                 padding: pxTorem(5px);
                                 box-sizing: border-box;
+                            }
+                        }
+                        .spans{
+                            width: 100%;
+                            color:red;
+                            span{
+                                padding: pxTorem(5px);
+                                box-sizing: border-box;
+                                display: inline-block;
+                                border: pxTorem(1px) solid red;
                             }
                         }
                     }
