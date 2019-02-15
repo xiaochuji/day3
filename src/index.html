@@ -5,12 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./libs/flexible.js"></script>
 </head>
 <body>
     <div class="box">
-        <header></header>
-        <section></section>
-        <footer></footer>
+        <header>
+            <span><</span>
+            <span>宁夏景点门票</span>
+            <span></span>
+        </header>
+        <section>
+            <div class="banner">
+                <div class="swiper-content">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/城市 - 6.jpg" alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/城市 - 7.jpg" alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/城市 - 8.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kind">
+                <dl>
+                    <dt>
+                        <img src="./img/l1.png" alt="">
+                    </dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l2.png" alt="">
+                    </dt>
+                    <dd>人文古迹</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l3.png" alt="">
+                    </dt>
+                    <dd>影视基地</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l4.png" alt="">
+                    </dt>
+                    <dd>水上乐园</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l5.png" alt="">
+                    </dt>
+                    <dd>主题乐园</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l6.png" alt="">
+                    </dt>
+                    <dd>亲子娱乐</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l7.png" alt="">
+                    </dt>
+                    <dd>避暑休闲</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l8.png" alt="">
+                    </dt>
+                    <dd>温泉滑雪</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l9.png" alt="">
+                    </dt>
+                    <dd>博物馆</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="./img/l10.png" alt="">
+                    </dt>
+                    <dd>全部景点</dd>
+                </dl>
+            </div>
+            <div class="move">
+                <ul>
+                    <li>全部城市</li>
+                    <li>预订排序</li>
+                    <li>综合时限</li>
+                </ul>
+                <div class="style">
+                    <dl>
+                        <dt>
+                            <img src="./img/d1.png" alt="">
+                        </dt>
+                        <dd>
+                            <div class="top">
+                                <h4>镇北堡西部影城</h4>
+                                <span>
+                                    5A景区
+                                </span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="./img/d2.png" alt="">
+                        </dt>
+                        <dd></dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="./img/d1.png" alt="">
+                        </dt>
+                        <dd></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>没有更过景点啦</p>
+        </footer>
     </div>
 </body>
+<script src="./libs/swiper.js"></script>
+<script>
+    var mySwiper = new Swiper(".swiper-content",{
+        autoplay:true,
+        loop:true
+    })
+</script>
 </html>
